@@ -34,7 +34,6 @@ build/
 .idea/**
 .mvn/**
 target/**
-.target/**
 HELP.md/**
 springboot.iml/**
 
