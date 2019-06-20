@@ -1,13 +1,13 @@
-package com.maven.springboot.com.maven.springboot.bookstore;
+package com.maven.springboot.com.maven.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BookstoreApplication {
+public class DemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BookstoreApplication.class, args);
+		SpringApplication.run(DemoApplication.class, args);
 	}
 
 }
