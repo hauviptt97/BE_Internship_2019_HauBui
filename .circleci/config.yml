@@ -1,4 +1,4 @@
-# Java Gradle CircleCI 2.0 configuration file
+# Java Maven CircleCI 2.0 configuration file
 #
 # Check https://circleci.com/docs/2.0/language-java/ for more details
 #
@@ -6,6 +6,8 @@ version: 2
 jobs:
   build:
     docker:
+      # CricleCI dùng docker. Ở dưới là mình dùng bản Pre-built có sẵn của CricleCI
+      # Ta có thể dùng image tự tạo
       # specify the version you desire here
       - image: circleci/openjdk:8-jdk
 
@@ -18,37 +20,25 @@ jobs:
 
     environment:
       # Customize the JVM maximum heap limit
-      JVM_OPTS: -Xmx3200m
-      TERM: dumb
+      MAVEN_OPTS: -Xmx3200m
 
     steps:
+      # Pull code về
       - checkout
 
-      # Download and cache dependencies
+      # Download và cache dependencies
       - restore_cache:
           keys:
-            - v1-dependencies-{{ checksum "build.gradle" }}
+            - v1-dependencies-{{ checksum "pom.xml" }}
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
 
-      - run: gradle dependencies
+      - run: mvn dependency:go-offline
 
       - save_cache:
           paths:
-            - ~/.gradle
-          key: v1-dependencies-{{ checksum "build.gradle" }}
+            - ~/.m2
+          key: v1-dependencies-{{ checksum "pom.xml" }}
 
-      # run tests!
-      - run:
-          name: Running test
-          command: gradle test
-
-      # Upload test coverage
-      - run:
-          name: Generate test coverage
-          command: gradle jacocoTestReport
-
-      # Upload test coverage
-      - run:
-          name: Upload test coverage
-          command: bash <(curl -s https://codecov.io/bash) || echo "Codecov did not collect coverage reports"
+      # Chạy test
+      - run: mvn integration-test
