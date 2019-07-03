@@ -7,17 +7,6 @@ USE blog ;
 
 
 -- -----------------------------------------------------
--- Table post
--- -----------------------------------------------------
-CREATE TABLE post (
-  id INT(11) NOT NULL,
-  content VARCHAR(255) NOT NULL,
-  date_create DATETIME NULL DEFAULT NULL,
-  date_update DATETIME NULL DEFAULT NULL,
-  PRIMARY KEY (id));
-
-
--- -----------------------------------------------------
 -- Table role
 -- -----------------------------------------------------
 CREATE TABLE role (
@@ -43,6 +32,23 @@ CREATE TABLE user (
   CONSTRAINT fk_user_role
     FOREIGN KEY (role_id)
     REFERENCES role (id)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE);
+
+
+-- -----------------------------------------------------
+-- Table post
+-- -----------------------------------------------------
+CREATE TABLE post (
+  id INT(11) NOT NULL,
+  content VARCHAR(255) NOT NULL,
+  user_id INT(11),
+  date_create DATETIME NULL DEFAULT NULL,
+  date_update DATETIME NULL DEFAULT NULL,
+  PRIMARY KEY (id),
+ CONSTRAINT fk_post_user
+    FOREIGN KEY (user_id)
+    REFERENCES user (id)
     ON DELETE CASCADE
     ON UPDATE CASCADE);
 
