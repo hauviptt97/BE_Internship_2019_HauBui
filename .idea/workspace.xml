@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d84d02ba-c3f0-4c08-82c4-9a9b96104996" name="Default Changelist" comment="week 3 - day 1 - blog database &amp; relationship">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maven/springboot/shop/controllers/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/blog.mwb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/blog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,28 +23,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/../blog/src/main/java/aa/entities/Post.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/shop/entities/Order.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="526">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,31 +35,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/shop/entities/OrderInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/shop/entities/ProductDto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/shop/entities/OderInfoKey.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/shop/entities/Product.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+              <caret line="22" column="30" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="22" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,39 +47,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/DemoApplication.java">
+        <entry file="file://$PROJECT_DIR$/database/blog.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#511#512#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="200">
+              <caret line="102" column="24" lean-forward="true" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/shop/configurations/TokenProvider.java">
+        <entry file="file://$PROJECT_DIR$/../blog/src/main/java/aa/entities/Tag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/shop/configurations/JwtAuthenticationFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -153,15 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/com/maven/springboot/shop/entities/CourseRatingKey.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/com/maven/springboot/shop/entities/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/com/maven/springboot/shop/entities/Category.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/com/maven/springboot/shop/entities/Order.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/com/maven/springboot/shop/entities/OderInfoKey.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/com/maven/springboot/shop/entities/OrderInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/com/maven/springboot/shop/controllers/ProductController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/com/maven/springboot/security/a.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/com/maven/springboot/security/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/com/maven/springboot/security/Role.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/com/maven/springboot/security/repositories/CategoryRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/com/maven/springboot/security/repositories/ProductRepository.java" />
@@ -180,7 +115,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/security/configurations/DataSeedingListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/security/DemoApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/security/configurations/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/DemoApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/shop/repositories/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/shop/repositories/RoleRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/shop/entities/User.java" />
@@ -190,7 +124,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/403.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/shop/configurations/DataSeedingListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/shop/common/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/shop/configurations/JwtAuthenticationFilter.java" />
@@ -204,6 +137,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/shop/controllers/AuthenticationController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/shop/entities/OrderInfo.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/blog/entities/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/blog/entities/Comment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/blog/entities/CommentKey.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/blog/entities/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/blog/DemoApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/DemoApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/blog/entities/Tag.java" />
+        <option value="$PROJECT_DIR$/database/blog.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maven/springboot/blog/entities/Post.java" />
+        <option value="$PROJECT_DIR$/../blog/src/main/java/aa/entities/Post.java" />
       </list>
     </option>
   </component>
@@ -227,7 +171,7 @@
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="false" />
       <showExcludedFiles Scope="false" ProjectPane="false" />
-      <hideEmptyPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -241,6 +185,11 @@
             <path>
               <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -263,6 +212,22 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springboot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -275,29 +240,29 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/maven/springboot/blog/entities" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\IdeaProjects\springboot\src\main\resources\templates" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.maven.springboot" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\Desktop\IdeaProjects\springboot\src\main\java\com\maven\springboot\shop" />
-      <recent name="C:\Users\Admin\Desktop\IdeaProjects\springboot\src\main\java\com\maven\springboot\shop\repositories" />
-      <recent name="C:\Users\Admin\Desktop\IdeaProjects\springboot\src\main\java\com\maven\springboot\shop\entities" />
-      <recent name="C:\Users\Admin\Desktop\IdeaProjects\springboot\src\main\java\com\maven\springboot\com\maven\springboot\security" />
-      <recent name="C:\Users\Admin\Desktop\IdeaProjects\springboot" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.maven.springboot.blog" />
       <recent name="com.maven.springboot.shop.controllers" />
       <recent name="com.maven.springboot.shop.services" />
       <recent name="com.maven.springboot.security" />
       <recent name="com.maven.springboot.com.maven.springboot.shop.repositories" />
-      <recent name="com.maven.springboot.com.maven.springboot.shop.controllers" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\Desktop\IdeaProjects\springboot\src\main\resources\templates" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\IdeaProjects\springboot\src\main\java\com\maven\springboot\blog\entities" />
+      <recent name="C:\Users\Admin\Desktop\IdeaProjects\springboot" />
+      <recent name="C:\Users\Admin\Desktop\IdeaProjects\springboot\src\main\java\com\maven\springboot\shop" />
+      <recent name="C:\Users\Admin\Desktop\IdeaProjects\springboot\src\main\java\com\maven\springboot\shop\repositories" />
+      <recent name="C:\Users\Admin\Desktop\IdeaProjects\springboot\src\main\java\com\maven\springboot\shop\entities" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -312,7 +277,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoApplication">
+  <component name="RunManager">
+    <configuration name="BlogApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aa.BlogApplication" />
+      <module name="blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.maven.springboot.security.DemoApplication" />
       <module name="springboot" />
@@ -343,11 +321,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BlogApplication" />
+        <item itemvalue="Application.DemoApplication" />
         <item itemvalue="Application.DemoApplication (1)" />
         <item itemvalue="Application.DemoApplication" />
-        <item itemvalue="Application.DemoApplication" />
         <item itemvalue="Application.DemoApplication (1)" />
-        <item itemvalue="Application.DemoApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -369,12 +347,32 @@
       <option name="project" value="LOCAL" />
       <updated>1561457297984</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="week 3">
+      <created>1562124497036</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562124497036</updated>
+    </task>
+    <task id="LOCAL-00003" summary="week 3 - day 1 - blog database &amp; relationship">
+      <created>1562124734272</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1562124734272</updated>
+    </task>
+    <task id="LOCAL-00004" summary="week 3 - day 1 - blog database &amp; relationship">
+      <created>1562140243097</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1562140243097</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33963692" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -434,80 +432,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="week 2 - security" />
-    <option name="LAST_COMMIT_MESSAGE" value="week 2 - security" />
+    <MESSAGE value="week 3" />
+    <MESSAGE value="week 3 - day 1 - blog database &amp; relationship" />
+    <option name="LAST_COMMIT_MESSAGE" value="week 3 - day 1 - blog database &amp; relationship" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.8.RELEASE/spring-data-jpa-2.1.8.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/shop/entities/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/shop/repositories/CategoryRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="77" selection-start-line="5" selection-start-column="77" selection-end-line="5" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2-sources.jar!/javax/persistence/FetchType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="46" column="49" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.4.RELEASE/spring-security-core-5.1.4.RELEASE-sources.jar!/org/springframework/security/crypto/bcrypt/BCryptPasswordEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
-          <folding>
-            <element signature="e#1579#1580#0" expanded="true" />
-            <element signature="e#1594#1595#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/com/maven/springboot/security/configurations/DataSeedingListener.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.4.RELEASE/spring-security-core-5.1.4.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/security/repositories/UserRepository.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/security/services/UserDetailsServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/security/controllers/MainController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/security/DemoApplication.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/security/configurations/DataSeedingListener.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/security/entities/Role.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/security/entities/User.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/security/configurations/WebSecurityConfig.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/shop/entities/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/security/repositories/RoleRepository.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/shop/repositories/RoleRepository.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -661,17 +595,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/shop/controllers/MainController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/shop/controllers/MainController.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        <state relative-caret-position="357">
+          <caret line="73" column="45" lean-forward="true" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -695,24 +623,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/shop/entities/ProductDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/shop/entities/OderInfoKey.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/DemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -737,17 +660,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/shop/entities/ProductDto.java">
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/aa/entities/PostDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="85">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/aa/entities/CommentKey.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="136">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/aa/entities/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="89" selection-start-line="1" selection-start-column="89" selection-end-line="1" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/aa/entities/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/aa/entities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="43" column="14" lean-forward="true" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/aa/BlogApplication.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/aa/entities/Tag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/blog.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="102" column="24" lean-forward="true" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/shop/entities/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maven/springboot/shop/entities/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/aa/entities/Post.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
