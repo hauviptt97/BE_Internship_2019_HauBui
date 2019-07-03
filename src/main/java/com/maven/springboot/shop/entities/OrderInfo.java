@@ -23,4 +23,6 @@ public class OrderInfo{
 
     @Column(name = "amount")
     private int amount;
+
+    
 }
